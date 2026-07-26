@@ -1,0 +1,1 @@
+{"source":{"directories":["src"]},"logs":{"text":"build/infection.log"},"minMsi":85,"minCoveredMsi":90,"testFramework":"phpunit"}
