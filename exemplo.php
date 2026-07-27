@@ -64,3 +64,7 @@ try {
     echo "✅ Capturada: {$e->getMessage()}\n";
 }
 echo "\n🎉 Exemplo finalizado com sucesso!\n";
+
+$cache = CacheFactory::array();
+$cache->set('saudacao', 'Olá!', 60);
+echo $cache->get('saudacao', 'MISS');
